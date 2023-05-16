@@ -1,15 +1,19 @@
 {
-  "name": "@jlnhnng/clusterapi",
+  "name": "@jlnhnng/lens-capi-extension",
   "publisher": "jlnhnng",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "Lens extension for ClusterAPI",
-  "homepage": "https://github.com/mirantis-field/lens-clusterapi-extension",
+  "author": {
+    "name": "Julian Hennig",
+    "email": "info@jlnhnng.de"
+  },
+  "homepage": "https://github.com/jlnhnng/lens-capi-extension",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mirantis-field/lens-clusterapi-extension.git"
+    "url": "https://github.com/jlnhnng/lens-capi-extension.git"
   },
   "bugs": {
-    "url": "https://github.com/mirantis-field/lens-clusterapi-extension/issues"
+    "url": "https://github.com/jlnhnng/lens-capi-extension/issues"
   },
   "license": "Apache-2.0",
   "engines": {

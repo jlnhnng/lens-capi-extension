@@ -5,11 +5,11 @@ Add ClusterAPI support to Lens. https://cluster-api.sigs.k8s.io/
 
 ## Install
 
-To install open K8s Lens and go to Extensions (CTRL+SHIFT+E or CMD+SHIFT+E), and install `@jlnhnng/clusterapi`.
+To install open K8s Lens and go to Extensions (CTRL+SHIFT+E or CMD+SHIFT+E), and install `@jlnhnng/lens-capi-extension`.
 
 or
 
-Click on the following link: [Install Extension](lens://app/extensions/install/@jlnhnng/clusterapi)
+Click on the following link: [Install Extension](lens://app/extensions/install/@jlnhnng/lens-capi-extension)
 
 
 ## Development
@@ -19,7 +19,7 @@ To install the extension for development
 ```sh
 mkdir -p ~/.k8slens/extensions
 git clone https://github.com/jlnhnng/lens-capi-extension.git
-ln -s $(pwd) ~/.k8slens/extensions/clusterapi
+ln -s $(pwd) ~/.k8slens/extensions/lens-capi-extension
 ```
 
 ## Build
