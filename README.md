@@ -5,11 +5,11 @@ Add ClusterAPI support to Lens. https://cluster-api.sigs.k8s.io/
 
 ## Install
 
-To install open K8s Lens and go to Extensions (CTRL+SHIFT+E or CMD+SHIFT+E), and install `@jlnhnng/lens-capi-extension`.
+To install open K8s Lens and go to Extensions (CTRL+SHIFT+E or CMD+SHIFT+E), and install `@jlnhnng/clusterapi`.
 
 or
 
-Click on the following link `lens://app/extensions/install/@jlnhnng/lens-capi-extension`
+Click on the following link `lens://app/extensions/install/@jlnhnng/clusterapi`
 
 
 ## Development
@@ -19,7 +19,7 @@ To install the extension for development
 ```sh
 mkdir -p ~/.k8slens/extensions
 git clone https://github.com/jlnhnng/lens-capi-extension.git
-ln -s $(pwd) ~/.k8slens/extensions/lens-capi-extension
+ln -s $(pwd) ~/.k8slens/extensions/clusterapi
 ```
 
 ## Build
@@ -50,7 +50,7 @@ Open the Lens application and navigate to a cluster. You should see "FluxCD" das
 ## Uninstall
 
 ```sh
-rm ~/.k8slens/extensions/lens-capi-extension
+rm ~/.k8slens/extensions/clusterapi
 ```
 
 Restart Lens application.

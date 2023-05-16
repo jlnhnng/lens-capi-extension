@@ -1,7 +1,7 @@
 {
   "name": "@jlnhnng/clusterapi",
   "publisher": "jlnhnng",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Lens extension for ClusterAPI",
   "homepage": "https://github.com/mirantis-field/lens-clusterapi-extension",
   "repository": {
