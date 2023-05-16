@@ -9,7 +9,7 @@ To install open K8s Lens and go to Extensions (CTRL+SHIFT+E or CMD+SHIFT+E), and
 
 or
 
-Click on the following link `lens://app/extensions/install/@jlnhnng/clusterapi`
+Click on the following link: [Install Extension](lens://app/extensions/install/@jlnhnng/clusterapi)
 
 
 ## Development
